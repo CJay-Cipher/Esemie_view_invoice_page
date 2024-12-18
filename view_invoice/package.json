@@ -1,7 +1,7 @@
 {
-    "homepage": "https://CJay-Cipher.github.io/Esemie_view_invoice_page/view_invoice/",
+    "homepage": "https://CJay-Cipher.github.io/Esemie_view_invoice_page/",
     "name": "view_invoice",
-    "private": true,
+    "private": false,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
