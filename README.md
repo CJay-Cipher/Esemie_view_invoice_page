@@ -1,5 +1,7 @@
 # Esemie View Invoice
 
+![Esemie View Invoice](view_invoice/public/screens.png)
+
 ## Overview
 
 Esemie View Invoice is a React application that allows users to view their invoice history. This README will guide you through the steps to run the project on your local machine.
