@@ -4,83 +4,97 @@
 
 ## Overview
 
-Esemie View Invoice is a React application that allows users to view their invoice history. This README will guide you through the steps to run the project on your local machine.
+**Esemie View Invoice** is a React application that allows users to view their invoice history. This README provides a guide to the completed project, which features a fully responsive "View Invoice" page for the Esemie application.
+
+## Objective
+
+The goal was to create a **"View Invoice"** page that displays detailed invoice information, payment details, and payment history, with interactive actions for users.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
--   [Node.js] (version 14 or later)
--   [npm] (Node Package Manager, comes with Node.js)
+-   **[Node.js]** (version 14 or later)
+-   **[npm]** (Node Package Manager, included with Node.js)
 
 ## Getting Started
 
-Follow these steps to set up and run the project locally:
+Follow these steps to run the project locally:
 
-1. **Clone the Repository**:
+### 1. Clone the Repository
 
-    Open your terminal and clone the repository using the following command:
+Open your terminal and clone the repository using the following command:
 
-    ```bash
-    git clone https://github.com/CJay-Cipher/Esemie_view_invoice_page.git
-    ```
+```bash
+git clone https://github.com/CJay-Cipher/Esemie_view_invoice_page.git
+```
 
-2. **Navigate to the Project Directory**:
+### 2. Navigate to the Project Directory
 
-    Change your directory to the React app folder:
+Change your directory to the React app folder:
 
-    ```bash
-    cd Esemie_view_invoice_page/view_invoice
-    ```
+```bash
+cd Esemie_view_invoice_page/view_invoice
+```
 
-3. **Install Dependencies**:
+### 3. Install Dependencies
 
-    Install the required dependencies by running:
+Install the required dependencies by running:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
-    ### Dependencies
+#### Dependencies
 
-    This project uses the following libraries:
+This project uses the following libraries:
 
-    **Dependencies**:
+**Dependencies**:
 
-    - `@react-icons/all-files`: ^4.1.0
-    - `react`: ^18.3.1
-    - `react-dom`: ^18.3.1
-    - `react-icons`: ^5.4.0
-    - `zustand`: ^5.0.2
+-   `@react-icons/all-files`: ^4.1.0
+-   `react`: ^18.3.1
+-   `react-dom`: ^18.3.1
+-   `react-icons`: ^5.4.0
+-   `zustand`: ^5.0.2
 
-    **DevDependencies**:
+**Important DevDependencies**:
 
-    - `@eslint/js`: ^9.15.0
-    - `@types/react`: ^18.3.12
-    - `@types/react-dom`: ^18.3.1
-    - `@vitejs/plugin-react`: ^4.3.4
-    - `autoprefixer`: ^10.4.20
-    - `eslint`: ^9.15.0
-    - `eslint-plugin-react-hooks`: ^5.0.0
-    - `eslint-plugin-react-refresh`: ^0.4.14
-    - `gh-pages`: ^6.2.0
-    - `globals`: ^15.12.0
-    - `postcss`: ^8.4.49
-    - `tailwindcss`: ^3.4.16
-    - `typescript`: ~5.6.2
-    - `typescript-eslint`: ^8.15.0
-    - `vite`: ^6.0.1
+-   `@vitejs/plugin-react`: ^4.3.4
+-   `eslint`: ^9.15.0
+-   `tailwindcss`: ^3.4.16
+-   `typescript`: ~5.6.2
 
-4. **Run the Development Server**:
+### 4. Run the Development Server
 
-    Start the development server with the following command:
+Start the development server with the following command:
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
-    After a few moments, you should see output indicating that the server is running, typically at `http://localhost:3000`.
+After a few moments, you should see output indicating that the server is running, typically at `http://localhost:5173`.
 
-5. **Open the Project in Your Browser**:
+### 5. Open the Project in Your Browser
 
-    Open your web browser and go to `http://localhost:3000` to view the application.
+Open your web browser and go to `http://localhost:5173` to view the application.
+
+## Responsiveness
+
+The "View Invoice" page is fully responsive, adapting seamlessly to desktop, tablet, and mobile views.
+
+## Code Quality
+
+-   The project features clean, modular, and reusable React components.
+-   TypeScript is used for strong type safety.
+-   Best practices for accessibility have been followed (e.g., proper alt text, semantic HTML).
+-   State management is implemented using Zustand.
+
+## Styling
+
+-   The application uses Tailwind CSS for styling, ensuring a modern and visually appealing interface.
+
+## Deliverables
+
+-   A fully functional React page implementing the design and functionality outlined above.
+-   Instructions on how to run the project locally.
+-   Documentation for any assumptions or additional features added.
