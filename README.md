@@ -14,8 +14,8 @@ The goal was to create a **"View Invoice"** page that displays detailed invoice 
 
 Before you begin, ensure you have the following installed:
 
--   **[Node.js]** (version 14 or later)
--   **[npm]** (Node Package Manager, included with Node.js)
+- **[Node.js]** (version 14 or later)
+- **[npm]** (Node Package Manager, included with Node.js)
 
 ## Getting Started
 
@@ -51,18 +51,18 @@ This project uses the following libraries:
 
 **Dependencies**:
 
--   `@react-icons/all-files`: ^4.1.0
--   `react`: ^18.3.1
--   `react-dom`: ^18.3.1
--   `react-icons`: ^5.4.0
--   `zustand`: ^5.0.2
+- `@react-icons/all-files`: ^4.1.0
+- `react`: ^18.3.1
+- `react-dom`: ^18.3.1
+- `react-icons`: ^5.4.0
+- `zustand`: ^5.0.2
 
 **Important DevDependencies**:
 
--   `@vitejs/plugin-react`: ^4.3.4
--   `eslint`: ^9.15.0
--   `tailwindcss`: ^3.4.16
--   `typescript`: ~5.6.2
+- `@vitejs/plugin-react`: ^4.3.4
+- `eslint`: ^9.15.0
+- `tailwindcss`: ^3.4.16
+- `typescript`: ~5.6.2
 
 ### 4. Run the Development Server
 
@@ -84,17 +84,17 @@ The "View Invoice" page is fully responsive, adapting seamlessly to desktop, tab
 
 ## Code Quality
 
--   The project features clean, modular, and reusable React components.
--   TypeScript is used for strong type safety.
--   Best practices for accessibility have been followed (e.g., proper alt text, semantic HTML).
--   State management is implemented using Zustand.
+- The project features clean, modular, and reusable React components.
+- TypeScript is used for strong type safety.
+- Best practices for accessibility have been followed (e.g., proper alt text, semantic HTML).
+- State management is implemented using Zustand.
 
 ## Styling
 
--   The application uses Tailwind CSS for styling, ensuring a modern and visually appealing interface.
+- The application uses Tailwind CSS for styling, ensuring a modern and visually appealing interface.
 
 ## Deliverables
 
--   A fully functional React page implementing the design and functionality outlined above.
--   Instructions on how to run the project locally.
--   Documentation for any assumptions or additional features added.
+- A fully functional React page implementing the design and functionality outlined above.
+- Instructions on how to run the project locally.
+- Documentation for any assumptions or additional features added.
