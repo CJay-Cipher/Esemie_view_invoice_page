@@ -12,23 +12,23 @@ import { BsPersonPlus } from "react-icons/bs";
 import { TbSettings2 } from "react-icons/tb";
 
 const SideBar = () => {
-    return (
-        <aside className="absolute w-sidebar-size h-sidebar-height bg-sidebar-bg flex flex-col items-center p-6 max-md:hidden">
-            <div className="bg-main-logo-bg w-12 h-12 p-1 mb-14 border-blue-400 flex justify-center items-center rounded-lg">
-                <img src={esemieIcon} alt="Sidebar Icon" />
-            </div>
-            <nav className="flex flex-col gap-5">
-                <SideBarIcon icon={RiHome5Fill} isActive={true} />
-                <SideBarIcon icon={IoReceiptOutline} isActive={false} />
-                <SideBarIcon icon={PiMoneyWavy} isActive={false} />
-                <SideBarIcon icon={IoPersonOutline} isActive={false} />
-                <SideBarIcon icon={CgNotes} isActive={false} />
-                <SideBarIcon icon={LuChartLine} isActive={false} />
-                <SideBarIcon icon={BsPersonPlus} isActive={false} />
-                <SideBarIcon icon={TbSettings2} isActive={false} />
-            </nav>
-        </aside>
-    );
+  return (
+    <aside className="absolute w-sidebar-size h-sidebar-height bg-sidebar-bg flex flex-col items-center p-6 max-md:hidden rounded-br-2xl">
+      <div className="bg-main-logo-bg w-12 h-12 p-1 mb-14 cursor-pointer border border-transparent hover:border-blue-400 flex justify-center items-center rounded-lg">
+        <img src={esemieIcon} alt="Sidebar Icon" />
+      </div>
+      <nav className="flex flex-col gap-5">
+        <SideBarIcon icon={RiHome5Fill} isActive={true} />
+        <SideBarIcon icon={IoReceiptOutline} isActive={false} />
+        <SideBarIcon icon={PiMoneyWavy} isActive={false} />
+        <SideBarIcon icon={IoPersonOutline} isActive={false} />
+        <SideBarIcon icon={CgNotes} isActive={false} />
+        <SideBarIcon icon={LuChartLine} isActive={false} />
+        <SideBarIcon icon={BsPersonPlus} isActive={false} />
+        <SideBarIcon icon={TbSettings2} isActive={false} />
+      </nav>
+    </aside>
+  );
 };
 
 export default SideBar;
